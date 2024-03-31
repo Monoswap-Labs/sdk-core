@@ -1,7 +1,7 @@
 {
   "name": "@monoswap-labs/sdk-core",
   "license": "MIT",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "⚒️ An SDK for building applications on top of Monoswap V3",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

@@ -18,7 +18,8 @@ export enum ChainId {
   AVALANCHE = 43114,
   BASE_GOERLI = 84531,
   BASE = 8453,
-  BLAST_SEPOLIA = 168587773
+  BLAST_SEPOLIA = 168587773,
+  BLAST = 81457
 }
 
 export const SUPPORTED_CHAINS = [
@@ -39,7 +40,8 @@ export const SUPPORTED_CHAINS = [
   ChainId.AVALANCHE,
   ChainId.BASE,
   ChainId.BASE_GOERLI,
-  ChainId.BLAST_SEPOLIA
+  ChainId.BLAST_SEPOLIA,
+  ChainId.BLAST
 ] as const
 export type SupportedChainsType = typeof SUPPORTED_CHAINS[number]
 
